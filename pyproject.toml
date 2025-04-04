@@ -1,0 +1,7 @@
+[project]
+name = "auto-certs-manager"
+version = "0.1.0"
+description = "Automation Framework for Public Digital Certificate Management Using NCLM API"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["kubernetes>=32.0.1"]

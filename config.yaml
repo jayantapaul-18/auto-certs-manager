@@ -1,0 +1,12 @@
+nclm_api:
+  url: "https://api.nclm.example.com"
+  api_key: "${NCLM_API_KEY}"
+kubernetes:
+  context: "default-cluster"
+allowed_domains:
+  - ".example.com"
+  - ".org.example.com"
+default_sans: []
+target_namespaces:
+  public-npe: ["dev-namespace", "staging-namespace"]
+  public-prod: ["prod-namespace"]
